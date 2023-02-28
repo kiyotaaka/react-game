@@ -1,0 +1,28 @@
+.order-item {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  &__cover {
+    width: 200px;
+    margin-right: 30px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  &__title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  &__price {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: auto;
+  }
+  &__delete-icon {
+    margin-left: 5px;
+    cursor: pointer;
+  }
+}

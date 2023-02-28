@@ -1,0 +1,10 @@
+.game-cover {
+  height: 170px;
+  width: 100%;
+  background: center / cover;
+  border-radius: 15px 15px 0 0;
+  transition: linear 0.2s;
+  &:hover {
+    transform: scale(1.06);
+  }
+}

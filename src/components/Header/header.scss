@@ -1,0 +1,22 @@
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  .wrapper {
+    display: flex;
+    flex-grow: 1;
+  }
+  &__store-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    @media (max-width: 340px) {
+      font-size: 20px;
+    }
+  }
+  &__cart-btn-wrapper {
+    justify-content: flex-end;
+  }
+}
