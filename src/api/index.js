@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: import.meta.env.VITE_SOME_KEY,
+  baseURL: "https://6296062e75c34f1f3b273d38.mockapi.io/",
 });
